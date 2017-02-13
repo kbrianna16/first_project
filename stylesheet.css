@@ -1,3 +1,4 @@
+/* CSS Reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,18 +43,64 @@ table {
   border-spacing: 0;
 }
 
+/* Styles */
 
-
-
-
-
-header {
-  height: 50px;
-  background: #64d6ce;
+body {
+  background-color: #60DFE5;
+  font-family: 'Roboto', serif;
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 5px solid #FFF;
+  width: 200px;
+}
+
+.card {
+  width: 550px;
+  margin: 100px auto 0;
+  text-align: center;
+}
+
+.name {
+  color: #FFF;
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+.icons a {
+  color: #fff;
+  display: inline-block;
+  padding: .938rem;
+  margin: .125rem;
+  border-radius: 50%;
+  border: .125rem solid #fff;
+  line-height: 0;
+  transition: all .7s;
+}
+
+.icons a:hover {
+  background: #fff;
+  color: #60DFE5;
+}
+
+.icons i {
+  width: 34px;
+  display: inline;
+  list-style-type: none;
+  float: left;
+}
+
+.icons {
+  font-size: 34px;
+  color: #FFF;
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+footer {
+  display: none;
+}
